@@ -1,0 +1,27 @@
+database
+avidb
+table1
+log_tab  
+ mysql> desc log_tab;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| usr_name | varchar(25) | YES  |     | NULL    |       |
+| pwd      | varchar(25) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+2 rows in set (0.57 sec)
+==============      
+sturec
+create table sturec(name varchar(20),college varchar(25),gender varchar(10),language varchar(10),stream varchar(30),images blob);
+mysql> desc sturec;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| name     | varchar(20) | YES  |     | NULL    |       |
+| college  | varchar(25) | YES  |     | NULL    |       |
+| gender   | varchar(10) | YES  |     | NULL    |       |
+| language | varchar(10) | YES  |     | NULL    |       |
+| stream   | varchar(30) | YES  |     | NULL    |       |
+| images   | blob        | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+6 rows in set (0.04 sec)
